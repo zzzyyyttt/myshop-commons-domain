@@ -1,0 +1,1 @@
+# myshop-commons-domain
