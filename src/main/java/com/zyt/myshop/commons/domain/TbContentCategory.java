@@ -6,6 +6,7 @@ import java.util.Date;
 
 @Table(name = "tb_content_category")
 public class TbContentCategory implements Serializable {
+    private static final long serialVersionUID = -5670109423151734966L;
     /**
      * 类目ID
      */

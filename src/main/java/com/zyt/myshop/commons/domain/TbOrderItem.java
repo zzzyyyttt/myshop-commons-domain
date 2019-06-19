@@ -5,6 +5,7 @@ import java.io.Serializable;
 
 @Table(name = "tb_order_item")
 public class TbOrderItem implements Serializable {
+    private static final long serialVersionUID = -7906657992126233213L;
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private String id;

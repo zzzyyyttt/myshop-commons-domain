@@ -6,6 +6,7 @@ import java.util.Date;
 
 @Table(name = "tb_content")
 public class TbContent implements Serializable {
+    private static final long serialVersionUID = -4851638300019227496L;
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

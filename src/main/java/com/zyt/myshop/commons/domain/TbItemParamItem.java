@@ -6,6 +6,7 @@ import java.util.Date;
 
 @Table(name = "tb_item_param_item")
 public class TbItemParamItem implements Serializable {
+    private static final long serialVersionUID = -3899342604966927329L;
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

@@ -8,6 +8,7 @@ import java.util.Date;
 
 @Table(name = "tb_order")
 public class TbOrder implements Serializable {
+    private static final long serialVersionUID = 1812080459971634714L;
     /**
      * 订单id
      */

@@ -9,6 +9,7 @@ import java.util.Date;
 
 @Table(name = "tb_user")
 public class TbUser implements Serializable {
+    private static final long serialVersionUID = 2045395865821428719L;
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
